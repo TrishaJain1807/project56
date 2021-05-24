@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background: linear-gradient(#03b1fc 0%,#ff0877 100%);
+}
+
+
+
+
+div {
+    margin-top:px;
+
+}
+
+
+
+
+
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+}
+
+
+
+
+
+.section-style {
+    
+    margin-right: 25px;
+    margin-left: 25px;
+    
+    background-color: ghostwhite;
+}
+img {
+    
+    width: 500px;
+    height: 400px;
+}
