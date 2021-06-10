@@ -1,51 +1,88 @@
-body {
-    text-align: center;
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    top:0;
+    
     background: linear-gradient(#03b1fc 0%,#ff0877 100%);
+width:100%;
+    display:table;
+    height: 100%;
 }
-
-
-
-
-div {
-    margin-top:px;
-
+.profile{
+    width:500px;
+border-radius: 30%;    
 }
-
-
-
-
-
-
-.image-section {
-    display: flex;
-    justify-content: center;
-    
-}
-
-
-
-
-
-
-
-
-h1{
+.para-inner{
+    display: table-cell;
+    position: relative;
     text-align: center;
+    vertical-align: middle;
 }
-
-
-
-
-
-.section-style {
-    
-    margin-right: 25px;
-    margin-left: 25px;
-    
-    background-color: ghostwhite;
+#bio{
+    text-align: center;
+padding: 50px;      
 }
-img {
+body{
+    text-align: center;
+    padding-top: 800px;
+}
+h1{
+font-size: 20px;    
     
-    width: 500px;
-    height: 400px;
+}
+.line{
+    height: 6px;
+    background-color:darkviolet;
+    border-radius: 10px;
+    width: 95px;
+    margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    position:fixed;
+    z-index: 10;
+  cursor: pointer;
+    width: 100%;
+    background: orange;
+    margin-top: 0px;
+    top: 0px;
+}  
+.links{
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: floralwhite;
+    font-family: 'Potta One', cursive;
+    
+}
+.links:hover{
+    background-color:chartreuse;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: floralwhite;
+    text-shadow: 2px 2px grey;
+}
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+.contacts_1 h3{
+    display: inline;
+    
+}
+.contacts_1 a{
+    color: white;
+    text-shadow: none;
+    
+}
+#contacts{
+    background: linear-gradient(#03b1fc 0%,#ff0877 100%);
 }
